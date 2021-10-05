@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "PORT=7778 keystone-next",
-    "seed-data": "keystone-next --seed-data"
+    "seed-data": "PORT=7778 keystone-next --seed-data"
   },
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
