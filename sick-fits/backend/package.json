@@ -5,7 +5,7 @@
   "author": "Wes Bos",
   "license": "MIT",
   "scripts": {
-    "dev": "keystone-next",
+    "dev": "PORT=7778 keystone-next",
     "seed-data": "keystone-next --seed-data"
   },
   "eslintConfig": {
