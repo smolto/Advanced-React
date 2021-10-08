@@ -42,7 +42,7 @@ export default function Reset({ token }) {
     // Send the email and password to the graphqlAPI
   }
 
-  const successfulError = data?.redeemUserPasswordResetToken.code
+  const successfulError = data?.redeemUserPasswordResetToken?.code
     ? data?.redeemUserPasswordResetToken
     : undefined;
   return (
